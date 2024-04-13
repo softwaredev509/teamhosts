@@ -1,0 +1,644 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>TeamHost - Join now and play mighty games!</title>
+        <meta content="Templines" name="author">
+        <meta content="TeamHost" name="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="format-detection" content="telephone=no">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/libs.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/fonts/simple-line-icons/css/simple-line-icons.css">
+        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+        <script src="assets/js/libs.js"></script>
+        <script src="assets/js/main.js"></script>
+
+
+    </head>
+
+
+    <body class="page-community">
+
+        <input id="toggle" type="checkbox">
+        <script type="text/javascript">
+            document.getElementById("toggle").addEventListener("click", function() {
+                document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+            });
+
+        </script>
+
+        <!-- Loader-->
+        <div id="page-preloader">
+            <div class="preloader-1">
+                <div class="loader-text">Loading</div>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+                <span class="line line-4"></span>
+                <span class="line line-5"></span>
+                <span class="line line-6"></span>
+                <span class="line line-7"></span>
+                <span class="line line-8"></span>
+                <span class="line line-9"></span>
+            </div>
+
+        </div>
+        <!-- Loader end-->
+
+
+        <div class="page-wrapper">
+            <header class="page-header">
+                <div class="page-header__inner">
+                    <div class="page-header__sidebar">
+
+                        <div class="page-header__menu-btn">
+
+                            <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button menu-btn">
+                                <span class="toggle-menu-button-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="page-header__logo"><img src="assets/img/logo.png" alt="logo"><span class="page-header__logo_text">TEAMHOST</span></div>
+                    </div>
+                    <div class="page-header__content">
+                        <div class="page-header__search">
+                            <div class="search">
+                                <div class="search__input"><i class="ico_search"></i><input type="search" name="search" placeholder="Search"></div>
+                                <div class="search__btn"><button type="button"><i class="ico_microphone"></i></button></div>
+                            </div>
+                        </div>
+                        <div class="page-header__action">
+
+                            <ul class="uk-subnav uk-nav-lang  uk-subnav-pill" uk-margin>
+
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/img/united-kingdom.png" alt="profile" class="profile">
+                                        English
+                                        <span uk-icon="icon: triangle-down"></span>
+
+                                    </a>
+                                    <div uk-dropdown="mode: hover">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li><a href="#"> <img src="assets/img/germany.png" alt="profile" class="profile">Germany</a></li>
+                                            <li><a href="#"> <img src="assets/img/italy.png" alt="profile" class="profile">Italy</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+
+                            <a class="action-btn" href="06_chats.html"><i class="ico_message"></i><span class="animation-ripple-delay1"></span></a>
+                            <a class="action-btn" href="07_friends.html"><i class="ico_notification"></i><span class="animation-ripple-delay2"></span></a>
+
+                            <ul class="uk-subnav uk-subnav-pill" uk-margin>
+
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/img/profile.png" alt="profile" class="profile">
+                                        Hi,Jack
+                                        <span uk-icon="icon: triangle-down"></span></a>
+                                    <div uk-dropdown="mode: click">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li><a href="#">My account</a></li>
+                                            <li><a href="#">My Password</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Log Out</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="page-content">
+                <aside class="sidebar" id="sidebar">
+
+                    <div class="sidebar-hider">
+                        <i class="icon-arrow-left"></i>
+                        <i class="icon-arrow-right"></i>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <ul class="uk-nav">
+                            <li><a href="index.html"><i class="ico_home"></i><span>Home</span></a></li>
+                            <li class="uk-nav-header"><i class="uk-nav-devider"></i><span>Account</span></li>
+                            <li><a href="04_profile.html"><i class="ico_profile"></i><span>Profile</span></a></li>
+                            <li><a href="05_favourites.html"><i class="ico_favourites"></i><span class="uk-nav-text">Favourites<span class="count">15</span></span></a></li>
+                            <li><a href="06_chats.html"><i class="ico_chats"></i><span>Chats</span></a></li>
+                            <li><a href="07_friends.html"><i class="ico_friends"></i><span>Friends</span></a></li>
+                            <li><a href="08_wallet.html"><i class="ico_wallet"></i><span>Wallet</span></a></li>
+                            <li class="uk-nav-header"><i class="uk-nav-devider"></i><span>Main</span></li>
+                            <li><a href="15_news.html"><i class="icon-feed"></i><span>News</span></a></li>
+                            <li><a href="13_community.html"><i class="icon-organization"></i><span>Community</span></a></li>
+                            <li class="uk-active"><a href="17_members.html"><i class="ico_community"></i><span>Members</span></a></li>
+                            <li><a href="09_games-store.html"><i class="ico_store"></i><span>Store</span></a></li>
+                            <li><a href="11_market.html"><i class="ico_market"></i><span>Market</span></a></li>
+                            <li><a href="12_streams.html"><i class="ico_streams"></i><span>Streams</span></a></li>
+                            <li class="uk-nav-header"><i class="uk-nav-devider"></i><span>Support</span></li>
+                            <li><a href="#modal-report" data-uk-toggle><i class="ico_report"></i><span>Report</span></a></li>
+                            <li><a href="#modal-help" data-uk-toggle><i class="ico_help"></i><span>Help</span></a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+
+                <main class="page-main">
+                    <div class="uk-grid" data-uk-grid>
+                        <div class="uk-width-3-3@l">
+
+
+                            <div class="uk-page-heading uk-height-medium uk-height-max-medium uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="assets/img/heading8.jpg" uk-img uk-parallax="bgy: -100">
+                                <div class="fl-hd-cover">
+                                    <span class="decore-lt"></span>
+                                    <span class="decore-lb"></span>
+                                    <span class="decore-rt"></span>
+                                    <span class="decore-rb"></span>
+                                </div>
+                                <h1 class="uk-page-heading-h">Members Directory</h1>
+                                <p class="uk-heading-text">Search members from all around the world!</p>
+                            </div>
+
+
+
+                            <div class="uk-grid uk-grid-small uk-child-width-1-5@l uk-child-width-1-3@m uk-child-width-1-2@s">
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-1.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Lester Barry</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>235</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>678</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steaml_barry</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-2.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Emma Stone</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>435</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>978</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>emma_stone</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>emma_stone</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_stone</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-3.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Alfred Anton</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>467</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>178</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>alfred_anton</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>alfred_anton</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_anton</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-4.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Lester Barry</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>67</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>278</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_barry</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-2.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Emma Stone</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>435</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>978</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>emma_stone</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>emma_stone</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_stone</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-1.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Lester Barry</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>235</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>678</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steaml_barry</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-4.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Lester Barry</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>67</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>278</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_barry</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-1.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Lester Barry</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>235</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>678</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>lester_barry</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steaml_barry</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-2.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Emma Stone</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>435</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>978</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>emma_stone</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>emma_stone</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_stone</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="fl-gp-box">
+                                    <div class="fl-cover-image">
+                                        <a href="#"><img class="avatar" width="100" height="100" alt="Profile Photo" src="assets/img/user-3.png"></a>
+                                        <div class="fl-gp-info-wrap">
+                                            <div class="fl-gp-info">
+                                                <div class="fl-gp-title"><a href="04_profile.html" class="bp-gp-home-link season-of-the-witch-home-link">Alfred Anton</a></div>
+                                                <div class="fl-gp-meta">
+                                                    <div class="group-status"> <i class="icon-globe"></i><span>@username</span></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-gp-footer">
+                                        <div class="fl-gp-cells">
+
+                                            <div class="fl-gp-cell-left">
+                                                <strong>467</strong>
+                                                <span>Posts</span>
+                                            </div>
+
+                                            <div class="fl-gp-cell-right">
+                                                <strong>178</strong>
+                                                <span>Members</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="fl-gp-footer-info">
+                                            <ul>
+                                                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>alfred_anton</li>
+                                                <li><i class="fa fa-slack" aria-hidden="true"></i>alfred_anton</li>
+                                                <li><i class="fa fa-steam-square" aria-hidden="true"></i>steam_anton</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+                </main>
+
+
+            </div>
+        </div>
+
+        <div class="page-modals">
+            <div class="uk-flex-top" id="modal-report" data-uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"><button class="uk-modal-close-default" type="button" data-uk-close></button>
+                    <h2 class="uk-modal-title">Send Report</h2>
+                    <form class="uk-form-stacked" action="#">
+                        <div class="uk-margin">
+                            <div class="uk-form-label">Subject</div>
+                            <div class="uk-form-controls"><select class="js-select">
+                                    <option value="">Choose Subject</option>
+                                    <option value="Subject 1">Subject 1</option>
+                                    <option value="Subject 2">Subject 2</option>
+                                    <option value="Subject 3">Subject 3</option>
+                                </select></div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-label">Details</div>
+                            <div class="uk-form-controls"><textarea class="uk-textarea" name="details" placeholder="Try to include all details..."></textarea></div>
+                            <div class="uk-form-controls uk-margin-small-top">
+                                <div data-uk-form-custom><input type="file"><button class="uk-button uk-button-default" type="button" tabindex="-1"><i class="ico_attach-circle"></i><span>Attach File</span></button></div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-grid uk-flex-right fl-form-action" data-uk-grid>
+                                <div><button class="uk-button uk-button-small uk-button-link">Cancel</button></div>
+                                <div><button class="uk-button uk-button-small uk-button-danger">Submit</button></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="uk-flex-top" id="modal-help" data-uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"><button class="uk-modal-close-default" type="button" data-uk-close></button>
+                    <h2 class="uk-modal-title">Help</h2>
+                    <div class="search">
+                        <div class="search__input"><i class="ico_search"></i><input type="search" name="search" placeholder="Search"></div>
+                        <div class="search__btn"><button type="button"><i class="ico_microphone"></i></button></div>
+                    </div>
+                    <div class="uk-margin-small-left uk-margin-small-bottom uk-margin-medium-top">
+                        <h4>Popular Q&A</h4>
+                        <ul>
+                            <li><img src="assets/img/svgico/clipboard-text.svg" alt="icon"><span>How to Upload Your Developed Game</span></li>
+                            <li><img src="assets/img/svgico/clipboard-text.svg" alt="icon"><span>How to Go Live Stream</span></li>
+                            <li><img src="assets/img/svgico/clipboard-text.svg" alt="icon"><span>Get in touch with the Creator Support Team</span></li>
+                        </ul>
+                        <ul>
+                            <li><a href="10_game-profile.html">browse all articles</a></li>
+                            <li><a href="10_game-profile.html">Send Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
